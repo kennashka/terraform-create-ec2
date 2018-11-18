@@ -8,7 +8,7 @@ Using terraform to create an AWS EC2 instance
 ## Terraform Install for Linux
 
 ```bash
-sudo apt install unzip #(if these are not installed)
+sudo apt install unzip #(if unzip command is not installed)
 wget https://releases.hashicorp.com/terraform/0.11.10/terraform_0.11.10_linux_amd64.zip
 unzip terraform_0.11.10_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
